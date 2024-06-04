@@ -9,9 +9,9 @@ It features smooth scrolling, a clean and modern design, and sections for showca
 - Integration of FontAwesome icons for aesthetic appeal.
 
 # Installation
-1.Clone the repository to your local machine using the following command:
+- Clone the repository to your local machine using the following command:
 - git clone https://github.com/your-username/your-repository.git
-2.Navigate to the project directory:
+- Navigate to the project directory:
 - cd your-repository
 
 # Usage
