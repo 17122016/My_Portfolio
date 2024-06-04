@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="Portfolio.css" />
+    <script src="https://kit.fontawesome.com/44f6f0d52a.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div id="header">
+
+        <div class="container">
+            <nav>
+                <img src="data:image/jpeg;base64,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"
+                    class="logo">
+
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+
+            <div class="header-text">
+                <p>UI/UX Designer</p>
+                <h1>Hi, I'm <span>Nidhi Nayak</span> From India </h1>
+            </div>
+
+
+        </div>
+    </div>
+    <!------------------------------------------ ABOUT SECTION  ------------------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+
+                <div class="about-col-1">
+                    <img src="personal-portfolio-img/images/Nidhi_office_photo.jpeg" />
+                </div>
+
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>
+
+                        👋 Hi, I'm Nidhi, a tech enthusiast passionate about problem-solving. I earned my BTech in
+                        Engineering Physics from IIT Roorkee,
+                        where I delved into software engineering.
+                        <br><br>
+                        💻 With 2.7 years of experience, I've worked as a Software Engineer and Frontend Developer,
+                        creating smooth digital experiences.
+                        I then moved to ICICI Bank as a Manager in Digital Technology, leading impactful projects.
+                        <br> <br>
+                        🚀 Skilled in DSA using Java, MERN stack (MongoDB, Express.js, Node.js, React.js), MySQL, Linux,
+                        and Flutter Flow.
+                        Known for collaboration and delivering results. I am dedicated to continuous learning and
+                        growth, bridging any skill
+                        gaps effectively.
+                        <br><br>
+                        📚 I'm a lifelong learner and avid reader, always seeking innovation. My curiosity drives me to
+                        explore new ideas and
+                        create tech solutions that positively impact millions. I aspire to be an exceptional software
+                        developer,
+                        making lives easier through technology innovation.
+                        <br><br>
+                        Let's connect and innovate together!
+                    </p>
+
+                    <div class="tab-titles ">
+                        <p class="tab-links  active-links" onclick="opentab( event , 'skills') ">Skills</p>
+                        <p class="tab-links " onclick="opentab( event , 'experience')">Experience</p>
+                        <p class="tab-links " onclick="opentab( event , 'eduaction')"> Eduaction</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX Designer</span><br>Desigining Web/app Interferace</li>
+                            <li><span>Web Development</span><br>Web App Development </li>
+                            <li><span>App Development</span><br>Building Android/IOS Apps</li>
+
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2022-2024</span><br>Frontend Developer at ICICI Bank</li>
+                            <li><span>2021-2022</span><br>Software Development Engineer at V3IT</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents " id="eduaction">
+                        <ul>
+                            <li><span>2017-2021</span><br>BTECH from IIT Roorkee</li>
+                            <li><span>2014-2016</span><br>PCM from Central Academy</li>
+                        </ul>
+                    </div>
+
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!---------------------------------Services ---------------------------------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet
+                        consectetur adipisicing elit.
+                        Aperiam reprehenderit qui
+                        perferendis rem blanditiis,
+                        aspernatur ipsam iste voluptatum.
+                        Sequi dolore blanditiis, exercitationem corrupti hic earum tempora aliquid
+                        vel quibusdam vero.</p>
+                    <a href="#">Learn more</a>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Lorem ipsum dolor sit amet
+                        consectetur adipisicing elit.
+                        Aperiam reprehenderit qui
+                        perferendis rem blanditiis,
+                        aspernatur ipsam iste voluptatum.
+                        Sequi dolore blanditiis, exercitationem corrupti hic earum tempora aliquid
+                        vel quibusdam vero.</p>
+                    <a href="#">Learn more</a>
+                </div>
+
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p>Lorem ipsum dolor sit amet
+                        consectetur adipisicing elit.
+                        Aperiam reprehenderit qui
+                        perferendis rem blanditiis,
+                        aspernatur ipsam iste voluptatum.
+                        Sequi dolore blanditiis, exercitationem corrupti hic earum tempora aliquid
+                        vel quibusdam vero.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ----------------------Portfolio -------------------------------------------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+
+                <div class="work">
+                    <img src="personal-portfolio-img/images/work-1.png">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>Lorem ipsum dolor sit amet,
+                            consectetur adipisicing elit. Dolorum fugiat voluptates commodi
+                            exercitationem ex voluptas modi voluptatem recusandae aspernatur
+                            repudiandae sed magni possimus cumque quia,
+                            quo tenetur quos vero quibusdam!</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="personal-portfolio-img/images/work-2.png">
+                    <div class="layer">
+                        <h3> Music App</h3>
+                        <p>Lorem ipsum dolor sit amet,
+                            consectetur adipisicing elit. Dolorum fugiat voluptates commodi
+                            exercitationem ex voluptas modi voluptatem recusandae aspernatur
+                            repudiandae sed magni possimus cumque quia,
+                            quo tenetur quos vero quibusdam!</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="personal-portfolio-img/images/work-3.png">
+                    <div class="layer">
+                        <h3>Shopping App</h3>
+                        <p>Lorem ipsum dolor sit amet,
+                            consectetur adipisicing elit. Dolorum fugiat voluptates commodi
+                            exercitationem ex voluptas modi voluptatem recusandae aspernatur
+                            repudiandae sed magni possimus cumque quia,
+                            quo tenetur quos vero quibusdam!</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <a href="" class="btn">see more</a>
+        </div>
+    </div>
+
+    <!--------------------- contact------------------------------------------------ -->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i>contact@example.com</p>
+                    <p><i class="fa-solid fa-phone"></i>102345678</p>
+
+                    <div class="social-icons">
+                        <a href="https://linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://instagram.com/" target="_blank"><i
+                                class="fa-brands fa-square-instagram"></i></a>
+                        <a href="https://twitter.com/" target="_blank"><i
+                                class="fa-brands fa-square-twitter"></i></i></a>
+                        <a href="https://snapchat.com/" target="_blank"><i
+                                class="fa-brands fa-square-snapchat"></i></i></a>
+
+                    </div>
+
+                    <a href="personal-portfolio-img/images/Nidhi_Nayak_Resume.pdf" download class="btn btn2"
+                        target="_blank"> Download CV </a>
+
+                </div>
+                <div class="contact-right">
+
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>Copyright @Nidhi Nayak Made with <i class="fa-solid fa-heart"></i></p>
+
+        </div>
+
+
+    </div>
+
+
+    <!-- ------------------------------JavaScript code --------------------------------------------- -->
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(event, tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-links");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+
+            event.currentTarget.classList.add("active-links");
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+
+    </script>
+
+    <script>
+
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemenu.style.right = "0";
+
+        }
+
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+
+        }
+
+    </script>
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycby_1YgeiRvGMcHSN6nn7lw7fJqvPHm4PB-bQ_1-w3foNXIZe9ce0ccmuVIfWYryyebU/exec';
+        const form = document.forms['submit-to-google-sheet']
+
+        const msg = document.getElementById("msg");
+
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+
+                    msg.innerHTML = "Message sent Successfully!"
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    }, 5000)
+                    form.reset();
+
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+
+
+
+
+</body>
+
+</html>
